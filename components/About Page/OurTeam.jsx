@@ -64,8 +64,8 @@ const OurTeam = ({ showMoreAboutEducator }) => {
                 { name: "github", profileLink: "https://github.com/ayush714" },
             ],
             desc: [
-                "Tushar Vaswani is a scientist, educator, inventor, and entrepreneur. As the Founder and Chairman of Udacity, Sebastian’s mission is to democratize education by providing lifelong learning to millions of students worldwide. He is also the founder of Google X, where he led projects including the Self-Driving Car, Google Glass, and more.",
-                "Previously, he led the Stanford Racing Team whose robot “Stanley” won the DARPA Grand Challenge. Sebastian has been named the 5th Most Creative Person in Business (Fast Company), among the 50 Smartest People in Tech (Fortune), and highlighted in 50 Best Inventions of 2010 (Time). He is the first recipient of the inaugural Smithsonian American Ingenuity Award for Education, and is also featured in the recent film Lo &amp; Behold: Reveries of the Connected World by award-winning writer and director Werner Herzog.",
+                "Mohit is currently MlOps student. He is also building @ Antern. He taught python to college students,  he is really passionate about programming. Mohit also has good video editing skills. He worked with several YouTubers in the past as a content writer and video editor.",
+                "Mohit loves to make memes for brand and create a brand through meme marketing.",
             ],
         },
         {
