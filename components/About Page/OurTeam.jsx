@@ -55,13 +55,12 @@ const OurTeam = ({ showMoreAboutEducator }) => {
                 },
                 {
                     name: "linkedin",
-                    profileLink: "https://www.linkedin.com/in/ayush-singh488/",
+                    profileLink: "https://www.linkedin.com/in/mohit-bharti-781159204/",
                 },
                 {
                     name: "twitter",
-                    profileLink: "https://twitter.com/AyushSi69507942",
+                    profileLink: "https://twitter.com/coder_mohit",
                 },
-                { name: "github", profileLink: "https://github.com/ayush714" },
             ],
             desc: [
                 "Mohit is currently MlOps student. He is also building @ Antern. He taught python to college students,  he is really passionate about programming. Mohit also has good video editing skills. He worked with several YouTubers in the past as a content writer and video editor.",
