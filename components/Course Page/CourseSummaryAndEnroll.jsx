@@ -89,7 +89,7 @@ const CourseSummaryAndEnroll = ({ courseSummaryAndEnroll, enrollLink }) => {
                                 }}
                                 link={enrollLink}
                             >
-                                Enroll Now
+                                {enrollLink ? "Enroll Now" : "Registrations Are Closed"}
                             </Button>
                         </div>
                     </div>
