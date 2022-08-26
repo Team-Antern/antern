@@ -5,7 +5,7 @@ const OurTeam = ({ showMoreAboutEducator }) => {
         {
             name: "Tushar Vaswani",
             position: "Co-Founder & Engineering Manager",
-            pic: "/assets/whyantern/instructor/tusharvaswani.png",
+            pic: "https://ik.imagekit.io/jprbxp6m21m/aboutus/instructors/tusharvaswani.png",
             socials: [
                 { name: "instagram", profileLink: "https://www.google.com/" },
                 { name: "linkedin", profileLink: "https://www.google.com/" },
