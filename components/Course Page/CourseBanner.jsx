@@ -67,6 +67,9 @@ const CourseBanner = ({ heading, enrollLink, trailerLink, bannerImage }) => {
                         onLoadingComplete={({ naturalWidth, naturalHeight }) =>
                             setRatio(naturalWidth / naturalHeight)
                         }
+                        style={{
+                            maxWidth: "600px",
+                        }}
                     />
                 </div>
             </div>

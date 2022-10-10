@@ -7,6 +7,7 @@ import CourseFeatures from "../../components/Course Page/CourseFeatures";
 import CourseSummaryAndEnroll from "../../components/Course Page/CourseSummaryAndEnroll";
 import CourseUniqueThing from "../../components/Course Page/CourseUniqueThing";
 import CurriculumDifference from "../../components/Course Page/CurriculumDifference";
+import OurSpecialBenefits from "../../components/Course Page/OurSpecialBenefits";
 
 const CoursePage = () => {
     const { query } = useRouter();
@@ -66,6 +67,7 @@ const CoursePage = () => {
                     />
                     <CurriculumDifference />
                     <CourseCurriculum curriculum={courseDetails.curriculum} />
+                    <OurSpecialBenefits />
                     <CourseSummaryAndEnroll
                         courseSummaryAndEnroll={
                             courseDetails.courseSummaryAndEnroll

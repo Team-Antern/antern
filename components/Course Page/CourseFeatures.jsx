@@ -6,23 +6,32 @@ const CourseFeatures = () => {
     const features = [
         {
             icon: <BsBook />,
-            heading: "Structured, Industry Standard Curriculum",
+            heading: "Hybrid learning",
         },
         {
             icon: <BsCameraVideo />,
-            heading: "Live Lectures By Instructors",
+            heading: "Structured learning",
         },
         {
             icon: <BsCommand />,
-            heading: "Project Based Learning through Industry Grade Projects",
+            heading: "Community & Networking",
         },
         {
             icon: <TbCertificate />,
-            heading: "Certificate/Credits and Letter Of Recommendation",
+            heading: "Get Special Benefits",
+        },
+        {
+            icon: <TbCertificate />,
+            heading: "Build Production Grade Projects",
+        },
+        {
+            icon: <TbCertificate />,
+            heading: "Get Certified",
         },
     ];
     return (
         <div className="container">
+            <div className="heading">What we offer?</div>
             <div className="content">
                 {features.map((feature, index) => (
                     <div key={index} className="feature">
@@ -37,8 +46,20 @@ const CourseFeatures = () => {
                     margin-bottom: 124px;
                 }
 
+                .heading {
+                    max-width: 600px;
+                    margin: auto;
+                    font-family: Plus Jakarta Display;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 54px;
+                    letter-spacing: -0.025em;
+                    text-align: center;
+                    margin-bottom: 80px;
+                }
+
                 .content {
-                    max-width: 1100px;
+                    max-width: 1030px;
                     margin: auto;
                     display: flex;
                     justify-content: center;
@@ -86,6 +107,14 @@ const CourseFeatures = () => {
                     bottom: 27px;
                     left: 50%;
                     transform: translateX(-50%);
+                }
+
+                @media screen and (max-width: 1000px) {
+                    .heading {
+                        font-size: 30px;
+                        line-height: 40px;
+                        max-width: 450px;
+                    }
                 }
 
                 @media screen and (max-width: 700px) {
