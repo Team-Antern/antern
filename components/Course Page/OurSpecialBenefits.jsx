@@ -29,9 +29,7 @@ const OurSpecialBenefits = () => {
                             Get handwritten notes
                         </div>
                         <div className="special-benefit-desc">
-                            Work on a research problem as a final project in the
-                            course guided by Mr. Ayush Singh and publish a
-                            researcg paper.
+                            Get hand crafted notes made by competent professionals for every topic taught in the course.
                         </div>
                     </div>
                     <div className="special-benefit-image">
