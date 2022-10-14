@@ -39,8 +39,7 @@ const Footer = () => {
         {
             heading: "courses",
             links: [
-                { url: "/course/1dd6f3ee32cb298d28cf", text: "ML001" },
-                { url: "/course/124ad5f9602544d0bafd", text: "XR001" },
+                { url: "/course/feda2a7d197c4284c958", text: "CS001B03" },
             ],
         },
     ];
