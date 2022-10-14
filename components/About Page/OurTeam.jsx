@@ -45,29 +45,6 @@ const OurTeam = ({ showMoreAboutEducator }) => {
             ],
         },
         {
-            name: "Mohit Bharti",
-            position: "CMO",
-            pic: "https://ik.imagekit.io/jprbxp6m21m/aboutus/instructors/mohit_HxXTsh5cB.webp",
-            socials: [
-                {
-                    name: "instagram",
-                    profileLink: "https://www.instagram.com/coder.mohit/",
-                },
-                {
-                    name: "linkedin",
-                    profileLink: "https://www.linkedin.com/in/mohit-bharti-781159204/",
-                },
-                {
-                    name: "twitter",
-                    profileLink: "https://twitter.com/coder_mohit",
-                },
-            ],
-            desc: [
-                "Mohit is currently MlOps student. He is also building @ Antern. He taught python to college students,  he is really passionate about programming. Mohit also has good video editing skills. He worked with several YouTubers in the past as a content writer and video editor.",
-                "Mohit loves to make memes for brand and create a brand through meme marketing.",
-            ],
-        },
-        {
             name: "Priyanshu Bhattacharjee",
             position: "Co-Founder & CTO",
             pic: "https://ik.imagekit.io/jprbxp6m21m/aboutus/instructors/priyanshu_UNLpkYQfi.webp",
